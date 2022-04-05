@@ -1,0 +1,40 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - OCMock (3.7.1)
+  - Specta (1.0.7)
+  - sqlite3 (3.25.3):
+    - sqlite3/common (= 3.25.3)
+  - sqlite3/common (3.25.3)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - OCMock
+  - Specta
+  - sqlite3 (~> 3.25.0)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - OCMock
+    - Specta
+    - sqlite3
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OCMock: 75fbeaa46a9b11f8c182bbb1d1f7e9a35ccc9955
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  sqlite3: 2d1742c206acbabc99593666bd359b19223ee0d8
+
+PODFILE CHECKSUM: db4e32c08bb08c2f88acdccb0079b25c6173fe5c
+
+COCOAPODS: 1.11.3
