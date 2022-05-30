@@ -11,5 +11,7 @@ target 'SWTableViewCellTests' do
   pod 'Expecta'
   pod 'OCMock'
   pod 'sqlite3', '~> 3.25.0'
+  pod 'OpenSSL', '~> 1.0'
+  pod 'GPAC4iOS'
 end
 
